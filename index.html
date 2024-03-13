@@ -17,61 +17,135 @@
         <nav>
           <ul>
             <li><a href="#about-me">About me</a></li>
-            <li><a href="#work">Work</a></li>
+            <li><a href="#work">My work</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
             <li class="header-btn"><a href="#resume">Resume</a></li>
           </ul>
         </nav>
       </div>
-      <!-- <div class="header-img"
-        <div>
-          <h1>I'm a designer who loves address customer needs!</h1>
-        </div>
-      </div>> -->
       <div class="div-header-img">
         <div class="title-header">
-          <h1>I'm a designer who loves address customer needs!</h1>
+          <h1>I'm a designer who aims to become a developer!</h1>
         </div>
       </div>
     </header>
 
     <main>
       <section id="about-me">
-        <h2>About Me</h2>
-        <p>
-          I’m Alex Da Silva, father, husband and a Designer based in Sydney,
-          Australia. I am a highly skilled designer with nearly 10 years of
-          experience and over 10,000 hours of project work. My focus is on
-          guiding businesses of all sizes, from startups to enterprises, to
-          create services that meet their customers’ needs, achieve business
-          goals, and deliver a positive and memorable experience from the first
-          interaction to ongoing engagement with the brand. In addition to my
-          expertise in design, I bring valuable experience as a Project Manager,
-          Management Consultant, and Head of Marketing, which allows me to
-          tackle complex problems and find the best balance between what is
-          desirable, feasible, and viable.
-        </p>
+        <div class="two-columns">
+          <div class="column1">
+            <p class="tagline">Experienced</p>
+            <h2>About Me</h2>
+          </div>
+          <div class="column2">
+            <p>
+              I’m Alex Da Silva, father, husband and a Designer based in Sydney,
+              Australia. I am a highly skilled designer with nearly 10 years of
+              experience and over 10,000 hours of project work. My focus is on
+              guiding businesses of all sizes, from startups to enterprises, to
+              create services that meet their customers’ needs, achieve business
+              goals, and deliver a positive and memorable experience from the
+              first interaction to ongoing engagement with the brand.
+            </p>
+          </div>
+        </div>
       </section>
       <section id="work">
-        <h2>Work</h2>
-        <p>
+        <div class="content-1">
+          <p class="tagline">My Work</p>
+          <h2>Meet my Portfolio</h2>
+        </div>
+        <div class="portfolio-list">
+          <div title="Portfolio 1" class="single-portfolio-large">
+            <a
+              href="https://alex-design-for-reap.github.io/marketing-accessibility-optimization/"
+              target="_blank"
+            >
+              <img
+                src="/assets/images/Horiseon Digital Agency.png"
+                alt=""
+                title=""
+              />
+            </a>
+            <div class="middle">
+              <div class="portfolio-btn">Horiseon Digital Agency website</div>
+            </div>
+          </div>
+          <div class="container-portfolios-small">
+            <div title="Portfolio 2" class="single-portfolio-small">
+              <a
+                href="https://alex-design-for-reap.github.io/28-Stu_Mini-Project-week2/"
+                target="_blank"
+              >
+                <img
+                  src="/assets/images/CSS Snippet Cheatsheet.png"
+                  alt=""
+                  title=""
+                />
+              </a>
+              <div class="middle">
+                <div class="portfolio-btn">CSS Snippet Cheatsheet</div>
+              </div>
+            </div>
+            <div title="Portfolio 3" class="single-portfolio-small">
+              <a
+                href="https://alex-design-for-reap.github.io/22-STU_Mini-Project/"
+                target="_blank"
+              >
+                <img
+                  src="/assets/images/My First landing page.png"
+                  alt=""
+                  title=""
+                />
+              </a>
+              <div class="middle">
+                <div class="portfolio-btn">My First Landing page</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </div>
+        <!-- <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis id
           perspiciatis ipsum cupiditate sunt excepturi voluptatum ipsa earum
           minima! Reprehenderit reiciendis in veritatis saepe, asperiores
           repudiandae alias expedita dolorum nulla iusto veniam, quod ducimus
           repellendus fuga sequi culpa eveniet doloribus?
-        </p>
+        </p> -->
       </section>
       <section id="contact-me">
-        <h2>Contact Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem amet
-          odio vel nihil alias voluptatibus aperiam impedit, laboriosam commodi
-          cumque? Quasi nam autem voluptas quis eius nulla odio sint deleniti in
-          doloribus est soluta, facere, quidem possimus perferendis, at ex?
-          Perspiciatis laudantium explicabo quasi, eum autem iste quidem at
-          doloribus.
-        </p>
+        <div class="contact-container">
+          <div class="column1">
+            <h2>Contact Me</h2>
+            <a href="mailto:design4reap@gmail.com">design4reap@gmail.com</a>
+            <a href="tel:0432244117">0432 244 117</a>
+            <a href="https://github.com/Alex-Design-For-Reap">GitHub Repos</a>
+            <a href="https://www.linkedin.com/in/alex-da-silva/">Linkedin</a>
+          </div>
+          <div class="column2">
+            <form action="#">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="Email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
       </section>
       <section id="resume">
         <h2>Resume</h2>
