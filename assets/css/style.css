@@ -22,6 +22,7 @@
 
 h1 {
   font-size: 56px;
+  padding: 24px;
 }
 h2 {
   font-size: 40px;
@@ -118,6 +119,14 @@ footer {
 }
 
 /* Class, IDs */
+.logo-header,
+.button-header {
+  width: 240px;
+}
+.button-header {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .logo-header img {
   max-width: 56px;
@@ -164,6 +173,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-top: 4vh;
 }
 
 .title-header {
@@ -233,6 +243,7 @@ button:hover {
 #work h2 {
   color: var(--light-color);
   margin-bottom: 24px;
+  text-align: center;
 }
 
 #work .content-1 {
@@ -379,8 +390,46 @@ button:hover {
     font-size: 24px;
   }
 
+  nav {
+    display: flex;
+  }
+
+  .logo-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-header {
+    justify-content: center;
+  }
+
+  header .header-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: relative;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin-bottom: 24px;
+    margin-right: 0px;
+  }
+
+  .header-btn a {
+    position: relative;
+    padding: 16px 24px;
+    border-radius: 16px;
+    border: 2px solid var(--secondary-container-color);
+  }
+
   .div-header-img {
-    margin-top: 4vh;
+    margin-top: 24vh;
   }
 
   section {
@@ -390,6 +439,11 @@ button:hover {
   .two-columns {
     flex-direction: column;
     gap: 24px;
+    align-items: center;
+  }
+
+  .two-columns .column1 {
+    align-items: center;
   }
 
   #work .single-portfolio-small {
@@ -404,7 +458,7 @@ button:hover {
 
 /* Tablet */
 
-@media screen and (min-width: 502px) and (max-width: 768px) {
+@media screen and (min-width: 502px) and (max-width: 860px) {
   h1 {
     font-size: 36px;
   }
@@ -419,5 +473,10 @@ button:hover {
 
   #work .single-portfolio-small {
     width: 100%;
+  }
+
+  #contact-me .column1 {
+    flex-grow: unset;
+    align-items: center;
   }
 }
