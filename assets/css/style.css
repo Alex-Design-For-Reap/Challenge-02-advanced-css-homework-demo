@@ -136,10 +136,9 @@ textarea {
 }
 
 footer {
-  background-color: var(--dark-color);
+  background-color: var(--on-primary-container-color);
   text-align: center;
   color: var(--light-color);
-  font-size: 24px;
   padding: 40px;
 }
 
@@ -263,6 +262,7 @@ button:hover {
 
 #work h2 {
   color: var(--light-color);
+  margin-bottom: 24px;
 }
 
 #work .content-1 {
