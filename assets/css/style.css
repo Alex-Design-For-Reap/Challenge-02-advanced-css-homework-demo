@@ -395,6 +395,11 @@ button:hover {
   #work .single-portfolio-small {
     width: 100%;
   }
+
+  #contact-me .column1 {
+    flex-grow: unset;
+    align-items: center;
+  }
 }
 
 /* Tablet */
